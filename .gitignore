@@ -1,0 +1,14 @@
+# Project files
+
+# Project folders
+tmp/
+
+# Python
+__pycache__/
+__init__.py
+
+# Environments
+.venv/
+
+# PyCharm
+.idea/
