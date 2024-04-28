@@ -47,7 +47,3 @@ class GetDataset:
         df = df.dropna().reset_index(drop=True)     # Drop rows with missing values
         print('Count total NaN at each column in a DataFrame:', df.isnull().sum(), sep='\n', end='\n\n')
         return df
-
-
-if __name__ == '__main__':
-    GetDataset().get_dataset()
