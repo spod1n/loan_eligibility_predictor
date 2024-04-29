@@ -3,6 +3,7 @@
 # Project folders
 tmp/
 pipelines/
+diagrams/
 
 # Python
 __pycache__/
