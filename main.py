@@ -12,4 +12,6 @@ if __name__ == '__main__':
 
     # Create and run the classifier
     classifier = LoanClassifier(classifiers)
-    print(classifier)
+    classifier.train_and_validate()
+    classifier.fine_tune()
+    classifier.evaluate_model()
