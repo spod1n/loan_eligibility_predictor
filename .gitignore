@@ -2,6 +2,7 @@
 
 # Project folders
 tmp/
+pipelines/
 
 # Python
 __pycache__/
